@@ -1,0 +1,16 @@
+{
+  "appId": "com.e-arzsal.proyectofepi",
+  "files": ["dist-electron", "dist-react"],
+  "icon": "./desktopIcon.png",
+  "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": "AppImage",
+    "category": "Finance"
+  },
+  "win": {
+    "target": ["portable", "msi"]
+  }
+
+}
